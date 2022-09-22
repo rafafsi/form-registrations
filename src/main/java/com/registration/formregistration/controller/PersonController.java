@@ -1,4 +1,4 @@
-package controller;
+package com.registration.formregistration.controller;
 
 import java.util.List;
 
@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import model.Person;
-import service.PersonService;
+import com.registration.formregistration.model.Person;
+import com.registration.formregistration.service.PersonService;
+
+
 
 @RestController
 public class PersonController {

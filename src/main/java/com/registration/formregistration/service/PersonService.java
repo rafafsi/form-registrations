@@ -1,4 +1,4 @@
-package service;
+package com.registration.formregistration.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import model.Person;
-import repository.personRepository;
+import com.registration.formregistration.model.Person;
+import com.registration.formregistration.repository.personRepository;
+
+
 
 @Service
 public class PersonService {

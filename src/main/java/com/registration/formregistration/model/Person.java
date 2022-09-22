@@ -1,4 +1,4 @@
-package model;
+package com.registration.formregistration.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@Table
+@Table(name = "tbl_people")
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -30,7 +30,7 @@ public class Person {
 
     @Column(nullable = false)
     private String email;
-    
+
     @Column(nullable = false)
     private Long cpf;
 }
