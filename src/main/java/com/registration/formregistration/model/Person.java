@@ -32,5 +32,5 @@ public class Person {
     private String email;
 
     @Column(nullable = false)
-    private Long cpf;
+    private String cpf;
 }
